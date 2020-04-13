@@ -42,6 +42,7 @@ function AddTxn() {
           </label>
           <input
             type='number'
+            step='0.01'
             value={amount}
             placeholder='Add Amount...'
             onChange={(e) => setAmount(e.target.value)}
