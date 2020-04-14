@@ -14,7 +14,7 @@ function Balance() {
 
     return (
         <>
-         <h4>Ypur Balance</h4>   
+         <h4>Your Balance</h4>   
          <h1>{format(total)}</h1>
         </>
     )
