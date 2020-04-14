@@ -30,10 +30,14 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  margin-top: -10px;
+}
+
 h3 {
   border-bottom: 1px solid #bbb;
   padding-bottom: 10px;
-  margin: 40px 0 10px;
+  margin: 10px 0 5px;
 }
 
 h4 {
@@ -123,7 +127,7 @@ input[type='number'] {
   margin: 10px 0;
 }
 
-ul li:nth-of-type(1n+4) {
+ul li:nth-of-type(1n + 4) {
   display: none;
 }
 
@@ -157,6 +161,7 @@ ul li:nth-of-type(1n+4) {
 
 @media (max-width: 320px) {
   .container {
-    width: 300px;
+    width: 400px;
+    height: 700px;
   }
 }
