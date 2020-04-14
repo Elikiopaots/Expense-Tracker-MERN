@@ -127,7 +127,7 @@ input[type='number'] {
   margin: 10px 0;
 }
 
-ul li:nth-of-type(1n + 5) {
+ul li:nth-of-type(1n + 4) {
   display: none;
 }
 
