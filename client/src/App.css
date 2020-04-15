@@ -183,23 +183,73 @@ ul #front:nth-of-type(1n + 4) {
 
 
 @media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px)
-and (-webkit-device-pixel-ratio : 3) { 
+and (min-device-width : 360px) 
+and (max-device-width : 740px)
+and (-webkit-device-pixel-ratio : 4) { 
   .allTxn {
-    width: 340px;
+    width: 125%;
+    margin-left: -12%;
   }
   .allTxn h1 {
-    font-size: 1em;
-    margin: 40px auto;
+    font-size: 1.3em;
+    margin: 35px auto;
   }
   .goBack {
     font-size: 0.6em;
     font-weight: 100;
-    margin: -15px 0 20px 0;
+    margin: -10px 0 20px 0;
   }
   .container {
-    width: 330px;
+    width: 125%;
     height: 100%;
+    margin-left: -12%;
+  }
+}
+
+@media only screen 
+and (min-device-width : 360px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { 
+  .allTxn {
+    width: 125%;
+    margin-left: -12%;
+  }
+  .allTxn h1 {
+    font-size: 1.3em;
+    margin: 35px auto;
+  }
+  .goBack {
+    font-size: 0.6em;
+    font-weight: 100;
+    margin: -10px 0 20px 0;
+  }
+  .container {
+    width: 125%;
+    height: 100%;
+    margin-left: -12%;
+  }
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px)
+and (-webkit-device-pixel-ratio : 2) { 
+  .allTxn {
+    width: 125%;
+    margin-left: -12%;
+  }
+  .allTxn h1 {
+    font-size: 1.3em;
+    margin: 35px auto;
+  }
+  .goBack {
+    font-size: 0.6em;
+    font-weight: 100;
+    margin: -10px 0 20px 0;
+  }
+  .container {
+    width: 125%;
+    height: 100%;
+    margin-left: -12%;
   }
 }
