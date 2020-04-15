@@ -193,7 +193,8 @@ and (-webkit-device-pixel-ratio : 3) {
     font-size: 1em;
   }
   .goBack {
-    font-size: 0.8em;
+    font-size: 0.6em;
+    font-weight: 100;
   }
   .container {
     width: 120%;
