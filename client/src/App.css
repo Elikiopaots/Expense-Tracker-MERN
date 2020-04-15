@@ -195,7 +195,7 @@ and (-webkit-device-pixel-ratio : 3) {
   .goBack {
     font-size: 0.6em;
     font-weight: 100;
-    line-height: 50px;
+    vertical-align: text-top;
   }
   .container {
     width: 120%;
