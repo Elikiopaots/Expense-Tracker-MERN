@@ -187,7 +187,7 @@ and (min-device-width : 375px)
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) { 
   .allTxn {
-    width: 380px;
+    width: 370px;
   }
   .allTxn h1 {
     font-size: 1em;
@@ -196,7 +196,7 @@ and (-webkit-device-pixel-ratio : 3) {
   .goBack {
     font-size: 0.6em;
     font-weight: 100;
-    margin: -20px 0 20px 0;
+    margin: -15px 0 20px 0;
   }
   .container {
     width: 110%;
