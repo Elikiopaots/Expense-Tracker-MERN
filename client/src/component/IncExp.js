@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { GlobalContext } from './GlobalState';
+import {format} from './Format'
 
 function IncExp() {
   const { txn } = useContext(GlobalContext);
@@ -15,10 +16,7 @@ function IncExp() {
     amounts.filter((item) => item < 0).reduce((acc, item) => (acc += item), 0) *
     -1
   ).toFixed(2);
-
-  const format = (x) => {
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-}
+  
   return (
     <div className="inc-exp-container">
       <div>

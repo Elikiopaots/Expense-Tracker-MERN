@@ -6,18 +6,31 @@ import Balance from './component/Balance';
 import IncExp from './component/IncExp';
 import TxnList from './component/TxnList';
 import AddTxn from './component/AddTxn';
+import History from './component/History';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className='container'>
+    <Router>
       <GlobalProvider>
-        <Header />
-        <Balance />
-        <IncExp />
-        <TxnList />
-        <AddTxn />
+        <Route
+          exact
+          path='/'
+          render={() => (
+            <React.Fragment>
+              <div className='container'>
+                <Header />
+                <Balance />
+                <IncExp />
+                <TxnList />
+                <AddTxn />
+              </div>
+            </React.Fragment>
+          )}
+        />
+        <Route path='/history' component={History} />
       </GlobalProvider>
-    </div>
+    </Router>
   );
 }
 
