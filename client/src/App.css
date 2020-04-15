@@ -190,10 +190,10 @@ and (-webkit-device-pixel-ratio : 3) {
     width: 100%;
   }
   .allTxn h1 {
-    font-size: 0.7em;
+    font-size: 1em;
   }
   .container {
-    width: 115%;
+    width: 120%;
     height: 100%;
   }
 }
