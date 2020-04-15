@@ -192,6 +192,9 @@ and (-webkit-device-pixel-ratio : 3) {
   .allTxn h1 {
     font-size: 1em;
   }
+  .goBack {
+    font-size: 0.8em;
+  }
   .container {
     width: 120%;
     height: 100%;
