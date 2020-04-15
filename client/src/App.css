@@ -191,14 +191,14 @@ and (-webkit-device-pixel-ratio : 3) {
   }
   .allTxn h1 {
     font-size: 1em;
+    margin: 10px auto;
   }
   .goBack {
     font-size: 0.6em;
     font-weight: 100;
-    vertical-align: text-top;
   }
   .container {
-    width: 120%;
+    width: 110%;
     height: 100%;
   }
 }
