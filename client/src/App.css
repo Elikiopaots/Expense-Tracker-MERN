@@ -181,8 +181,6 @@ ul #front:nth-of-type(1n + 4) {
   float: left;
 }
 
-
-/* iPhone X */
 @media only screen 
 and (min-device-width : 360px) 
 and (max-device-width : 812px)
@@ -207,7 +205,6 @@ and (-webkit-device-pixel-ratio : 3) {
   }
 }
 
-/* iPhone 6 */
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px)
@@ -232,7 +229,6 @@ and (-webkit-device-pixel-ratio : 2) {
   }
 }
 
-/* Samsung Galaxy S9/S9+ */
 @media only screen 
 and (min-device-width : 360px) 
 and (max-device-width : 740px)
